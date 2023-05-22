@@ -95,6 +95,22 @@ We report results on two metrics: Pearson correlation ($\rho$) and area under th
          <td>-</td>
          <td>-</td>
          <td>-</td>         
+  </tr>
+           <tr>
+      <td> ROUGE-L </td>
+           <td> [<a href="https://aclanthology.org/2022.naacl-main.287">Lin et al. 2004</a>] </td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>
+         <td>-</td>         
   </tr> 
 </table>
 
