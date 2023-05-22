@@ -112,6 +112,23 @@ We report results on two metrics: Pearson correlation ($\rho$) and area under th
          <td>0.02</td>
          <td>0.54</td>         
   </tr> 
+           <tr>
+      <td> Majority Class </td>
+           <td> - </td>
+         <td>-</td>
+         <td>0.5</td>
+         <td>-</td>
+         <td>0.5</td>
+         <td>-</td>
+         <td>0.5</td>
+         <td>-</td>
+         <td>0.5</td>
+         <td>-</td>
+         <td>0.5</td>
+         <td>-</td>
+         <td>0.5</td>         
+  </tr>   
+  
 </table>
 
 ## Leaderboard Submission
