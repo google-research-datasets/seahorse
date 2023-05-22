@@ -67,18 +67,18 @@ We report results on two metrics: Pearson correlation ($\rho$) and area under th
        <tr>
       <td> mT5-seahorse </td>
          <td> <a href="">[Clark et al. 2023]</a> </td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>         
+         <td><b>0.52</b></td>
+    <td>0.90</td>
+    <td>0.86</td>
+    <td>0.98</td>
+    <td>0.45</td>
+    <td>0.84</td>
+    <td>0.59</td>
+    <td>0.85</td>
+    <td>0.50</td>
+    <td>0.80</td>
+    <td>0.52</td>
+    <td>0.81</td>         
   </tr> 
 </table>
 
