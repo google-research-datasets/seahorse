@@ -99,18 +99,18 @@ We report results on two metrics: Pearson correlation ($\rho$) and area under th
            <tr>
       <td> ROUGE-L </td>
            <td> [<a href="https://aclanthology.org/2022.naacl-main.287">Lin et al. 2004</a>] </td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>
-         <td>-</td>         
+         <td>0.04</td>
+         <td>0.54</td>
+         <td>0.06</td>
+         <td>0.54</td>
+         <td>-0.03</td>
+         <td>0.43</td>
+         <td>0.13</td>
+         <td>0.55</td>
+         <td>0.03</td>
+         <td>0.54</td>
+         <td>0.02</td>
+         <td>0.54</td>         
   </tr> 
 </table>
 
