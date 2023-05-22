@@ -29,7 +29,9 @@ There is also a directory called `duplicates`, which contains the items that rec
 
 ## Retrieving articles from GEM
 
-The [xsum](https://huggingface.co/datasets/GEM/xsum), [mlsum](https://huggingface.co/datasets/GEM/mlsum), and [xlsum](https://huggingface.co/datasets/GEM/xlsum) articles can all be retrieved using the GEM on HuggingFace. The `gem_id` column points to the article in the GEM datasets.
+If you would like to access the articles that the Seahorse summaries are based on, you will need to retrieve them using their GEM ids.
+
+The [xsum](https://huggingface.co/datasets/GEM/xsum), [mlsum](https://huggingface.co/datasets/GEM/mlsum), and [xlsum](https://huggingface.co/datasets/GEM/xlsum) articles can all be retrieved through GEM on HuggingFace. The `gem_id` column points to the article in the GEM datasets.
 
 The wikilingua article ids come from a previous version of the GEM dataset and should be retrieved using [TensorFlow datasets](https://www.tensorflow.org/datasets/catalog/gem). Here's an example of how to load the English wikilingua dataset into a dataframe:
 
