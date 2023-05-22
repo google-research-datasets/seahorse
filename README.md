@@ -25,11 +25,21 @@ There is also a directory called `duplicates`, which contains the items that rec
 
 ## Retrieving articles from GEM
 
-The xsum, mlsum, and xlsum articles can all be retrieved using the GEMv2 on HuggingFace.
+The [xsum](https://huggingface.co/datasets/GEM/xsum), [mlsum](https://huggingface.co/datasets/GEM/mlsum), and [xlsum](https://huggingface.co/datasets/GEM/xlsum) articles can all be retrieved using the GEM on HuggingFace. The `gem_id` column points to the article in the GEM datasets.
 
-The wikilingua articles must be retrieved using GEMv1.
+The wikilingua article ids come from a previous version of the GEM dataset and should be retrieved using tensorflow datasets. Here's an example of how to load the English wikilingua dataset into a dataframe:
 
-# Leaderboard
+```
+import tensorflow_datasets as tfds
+
+lang = 'english_en'
+orig_split = 'validation'
+
+ds, info = tfds.load(f'huggingface:gem/wiki_lingua_{lang}', split=orig_split, with_info=True)
+hfdf = tfds.as_dataframe(ds,info)
+```
+
+## Leaderboard
 
 We are maintaining a leaderboard with official results on our test set.
 
