@@ -29,6 +29,61 @@ The xsum, mlsum, and xlsum articles can all be retrieved using the GEMv2 on Hugg
 
 The wikilingua articles must be retrieved using GEMv1.
 
+# Leaderboard
+
+We are maintaining a leaderboard with official results on our test set.
+
+We ask you to **not** incorporate any part of the Seahorse validation set into the training data, and only use it for validation/hyperparameter tuning as development sets are typically used.
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th colspan="2">Q1</th>
+    <th colspan="2">Q2</th>
+    <th colspan="2">Q3</th>
+    <th colspan="2">Q4</th>
+    <th colspan="2">Q5</th>
+    <th colspan="2">Q6</th>
+  </tr>
+  <tr>
+    <th>Model</th>
+    <th>Link</th>
+    <th>Pearson</th>
+    <th>ROC-AUC</th>
+    <th>Pearson</th>
+    <th>ROC-AUC</th>
+    <th>Pearson</th>
+    <th>ROC-AUC</th>
+    <th>Pearson</th>
+    <th>ROC-AUC</th>
+    <th>Pearson</th>
+    <th>ROC-AUC</th>    
+    <th>Pearson</th>
+    <th>ROC-AUC</th>
+  </tr>
+       <tr>
+      <td> mT5-seahorse </td>
+         <td> <a href="">[Clark et al. 2023]</a> </td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>         
+  </tr> 
+</table>
+
+## Leaderboard Submission
+
+If you want to submit to the leaderboard, please send an email to the contact email below with your results.
+
 ## Contact
 
 Please email eaclark@google.com if you have any questions about the dataset.
