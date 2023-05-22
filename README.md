@@ -49,18 +49,18 @@ We ask you to **not** incorporate any part of the Seahorse validation set into t
   <tr>
     <th>Model</th>
     <th>Link</th>
+    <th>$\rho$</th>
+    <th>ROC</th>
     <th>Pearson</th>
-    <th>ROC-AUC</th>
+    <th>ROC</th>
     <th>Pearson</th>
-    <th>ROC-AUC</th>
+    <th>ROC</th>
     <th>Pearson</th>
-    <th>ROC-AUC</th>
+    <th>ROC</th>
     <th>Pearson</th>
-    <th>ROC-AUC</th>
+    <th>ROC</th>    
     <th>Pearson</th>
-    <th>ROC-AUC</th>    
-    <th>Pearson</th>
-    <th>ROC-AUC</th>
+    <th>ROC</th>
   </tr>
        <tr>
       <td> mT5-seahorse </td>
