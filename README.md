@@ -3,6 +3,10 @@
 Seahorse is a dataset for multilingual, multifaceted summarization evaluation.
 It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 
+More details can be found in our paper, which can be cited as follows:
+```
+```
+
 You can download the Seahorse dataset here: https://storage.googleapis.com/seahorse-public/seahorse_data.zip
 
 ## Dataset description
@@ -27,7 +31,7 @@ There is also a directory called `duplicates`, which contains the items that rec
 
 The [xsum](https://huggingface.co/datasets/GEM/xsum), [mlsum](https://huggingface.co/datasets/GEM/mlsum), and [xlsum](https://huggingface.co/datasets/GEM/xlsum) articles can all be retrieved using the GEM on HuggingFace. The `gem_id` column points to the article in the GEM datasets.
 
-The wikilingua article ids come from a previous version of the GEM dataset and should be retrieved using tensorflow datasets. Here's an example of how to load the English wikilingua dataset into a dataframe:
+The wikilingua article ids come from a previous version of the GEM dataset and should be retrieved using [TensorFlow datasets](https://www.tensorflow.org/datasets/catalog/gem). Here's an example of how to load the English wikilingua dataset into a dataframe:
 
 ```
 import tensorflow_datasets as tfds
