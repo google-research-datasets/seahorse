@@ -35,6 +35,8 @@ We are maintaining a leaderboard with official results on our test set.
 
 We ask you to **not** incorporate any part of the Seahorse validation set into the training data, and only use it for validation/hyperparameter tuning as development sets are typically used.
 
+We report results on two metrics: Pearson correlation ($\rho$) and area under the ROC curve (roc).
+
 <table>
   <tr>
     <th></th>
@@ -50,17 +52,17 @@ We ask you to **not** incorporate any part of the Seahorse validation set into t
     <th>Model</th>
     <th>Link</th>
     <th>$\rho$</th>
-    <th>ROC</th>
-    <th>Pearson</th>
-    <th>ROC</th>
-    <th>Pearson</th>
-    <th>ROC</th>
-    <th>Pearson</th>
-    <th>ROC</th>
-    <th>Pearson</th>
-    <th>ROC</th>    
-    <th>Pearson</th>
-    <th>ROC</th>
+    <th>roc</th>
+    <th>$\rho$</th>
+    <th>roc</th>
+    <th>$\rho$</th>
+    <th>roc</th>
+    <th>$\rho$</th>
+    <th>roc</th>
+    <th>$\rho$</th>
+    <th>roc</th>    
+    <th>$\rho$</th>
+    <th>roc</th>
   </tr>
        <tr>
       <td> mT5-seahorse </td>
