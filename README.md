@@ -68,17 +68,33 @@ We report results on two metrics: Pearson correlation ($\rho$) and area under th
       <td> mT5-seahorse </td>
          <td> <a href="">[Clark et al. 2023]</a> </td>
          <td><b>0.52</b></td>
-    <td>0.90</td>
-    <td>0.86</td>
-    <td>0.98</td>
-    <td>0.45</td>
-    <td>0.84</td>
-    <td>0.59</td>
-    <td>0.85</td>
-    <td>0.50</td>
-    <td>0.80</td>
-    <td>0.52</td>
-    <td>0.81</td>         
+         <td><b>0.90</b></td>
+         <td><b>0.86</b></td>
+         <td><b>0.98</b></td>
+         <td><b>0.45</b></td>
+         <td><b>0.84</b></td>
+         <td><b>0.59</b></td>
+         <td><b>0.85</b></td>
+         <td><b>0.50</b></td>
+         <td><b>0.80</b></td>
+         <td><b>0.52</b></td>
+         <td><b>0.81</b></td>         
+  </tr> 
+         <tr>
+      <td> mT5-XNLI </td>
+           <td> [<a href="https://aclanthology.org/2022.naacl-main.287/">Honovich et al. 2022</a>, <a href="https://aclanthology.org/D18-1269/">Conneau et al. 2018</a>] </td>
+         <td><b>0.52</b></td>
+         <td><b>0.90</b></td>
+         <td><b>0.86</b></td>
+         <td><b>0.98</b></td>
+         <td><b>0.45</b></td>
+         <td><b>0.84</b></td>
+         <td><b>0.59</b></td>
+         <td><b>0.85</b></td>
+         <td><b>0.50</b></td>
+         <td><b>0.80</b></td>
+         <td><b>0.52</b></td>
+         <td><b>0.81</b></td>         
   </tr> 
 </table>
 
