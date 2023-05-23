@@ -3,8 +3,16 @@
 Seahorse is a dataset for multilingual, multifaceted summarization evaluation.
 It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 
-More details can be found in our paper, which can be cited as follows:
+More details can be found in the [paper](https://arxiv.org/abs/2305.13194), which can be cited as follows:
 ```
+@misc{clark2023seahorse,
+      title={SEAHORSE: A Multilingual, Multifaceted Dataset for Summarization Evaluation}, 
+      author={Elizabeth Clark and Shruti Rijhwani and Sebastian Gehrmann and Joshua Maynez and Roee Aharoni and Vitaly Nikolaev and Thibault Sellam and Aditya Siddhant and Dipanjan Das and Ankur P. Parikh},
+      year={2023},
+      eprint={2305.13194},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 You can download the Seahorse dataset here: https://storage.googleapis.com/seahorse-public/seahorse_data.zip
