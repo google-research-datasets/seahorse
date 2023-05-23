@@ -16,7 +16,7 @@ More details can be found in the [paper](https://arxiv.org/abs/2305.13194), whic
 ```
 The Seahorse dataset is released under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-You can download the Seahorse dataset here: https://storage.googleapis.com/seahorse-public/seahorse_data.zip
+You can download the dataset here: https://storage.googleapis.com/seahorse-public/seahorse_data.zip
 
 
 ## Dataset description
