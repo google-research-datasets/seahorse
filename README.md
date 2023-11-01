@@ -55,6 +55,16 @@ ds, info = tfds.load(f'huggingface:gem/wiki_lingua_{lang}', split=orig_split, wi
 hfdf = tfds.as_dataframe(ds,info)
 ```
 
+## Seahorse metrics
+
+Metrics trained on Seahorse are available through HuggingFace.
+These are mT5-based metrics in two sizes (Large and XXL), each trained on one of the six dimensions of quality.
+Please see the [paper](https://arxiv.org/abs/2305.13194) for more details about these metrics.
+|       | Q1      | Q2 | Q3      | Q4 | Q5      | Q6 |
+| -----------| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| mT5-XXL      | [seahorse-xxl-q1](https://huggingface.co/google/seahorse-xxl-q1)|[seahorse-xxl-q2](https://huggingface.co/google/seahorse-xxl-q2)|[seahorse-xxl-q3](https://huggingface.co/google/seahorse-xxl-q3)|[seahorse-xxl-q4](https://huggingface.co/google/seahorse-xxl-q4)|[seahorse-xxl-q5](https://huggingface.co/google/seahorse-xxl-q5)|[seahorse-xxl-q6](https://huggingface.co/google/seahorse-xxl-q6)|
+| mT5-Large   | [seahorse-large-q1](https://huggingface.co/google/seahorse-large-q1)|[seahorse-large-q2](https://huggingface.co/google/seahorse-large-q2)|[seahorse-large-q3](https://huggingface.co/google/seahorse-large-q3)|[seahorse-large-q4](https://huggingface.co/google/seahorse-large-q4)|[seahorse-large-q5](https://huggingface.co/google/seahorse-large-q5)|[seahorse-large-q6](https://huggingface.co/google/seahorse-large-q6)|
+
 ## Leaderboard
 
 We are maintaining a leaderboard with official results on our test set.
@@ -163,4 +173,4 @@ If you want to submit to the leaderboard, please send an email to the contact em
 
 ## Contact
 
-Please email eaclark@google.com if you have any questions about the dataset.
+Please email seahorse-authors@google.com if you have any questions about the dataset.
