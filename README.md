@@ -18,6 +18,7 @@ The Seahorse dataset is released under the [CC-BY 4.0](https://creativecommons.o
 
 You can download the dataset here: https://storage.googleapis.com/seahorse-public/seahorse_data.zip
 
+<b>New!!</b>: We have also released the learnt metrics trained on Seahorse described in the paper on Huggingface. They can be found [here](https://huggingface.co/collections/google/seahorse-release-6543b0c06d87d83c6d24193b).
 
 ## Dataset description
 
