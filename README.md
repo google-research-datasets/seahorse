@@ -18,7 +18,7 @@ The Seahorse dataset is released under the [CC-BY 4.0](https://creativecommons.o
 
 You can download the dataset here: https://storage.googleapis.com/seahorse-public/seahorse_data.zip
 
-<b>New!!</b>: We have also released the learnt metrics trained on Seahorse described in the paper on Huggingface. They can be found [here](https://huggingface.co/collections/google/seahorse-release-6543b0c06d87d83c6d24193b).
+<b>New!!</b> We have also released the learnt metrics trained on Seahorse described in the paper on Huggingface. They can be found [here](https://huggingface.co/collections/google/seahorse-release-6543b0c06d87d83c6d24193b).
 
 ## Dataset description
 
@@ -58,7 +58,7 @@ hfdf = tfds.as_dataframe(ds,info)
 
 ## Seahorse metrics
 
-Metrics trained on Seahorse are available through HuggingFace.
+Metrics trained on Seahorse are available through HuggingFace. They can be found [here](https://huggingface.co/collections/google/seahorse-release-6543b0c06d87d83c6d24193b).
 These are mT5-based metrics in two sizes (Large and XXL), each trained on one of the six dimensions of quality.
 Please see the [paper](https://arxiv.org/abs/2305.13194) for more details about these metrics.
 |       | Q1      | Q2 | Q3      | Q4 | Q5      | Q6 |
