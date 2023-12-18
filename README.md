@@ -66,6 +66,8 @@ Please see the [paper](https://arxiv.org/abs/2305.13194) for more details about 
 | mT5-XXL      | [seahorse-xxl-q1](https://huggingface.co/google/seahorse-xxl-q1)|[seahorse-xxl-q2](https://huggingface.co/google/seahorse-xxl-q2)|[seahorse-xxl-q3](https://huggingface.co/google/seahorse-xxl-q3)|[seahorse-xxl-q4](https://huggingface.co/google/seahorse-xxl-q4)|[seahorse-xxl-q5](https://huggingface.co/google/seahorse-xxl-q5)|[seahorse-xxl-q6](https://huggingface.co/google/seahorse-xxl-q6)|
 | mT5-Large   | [seahorse-large-q1](https://huggingface.co/google/seahorse-large-q1)|[seahorse-large-q2](https://huggingface.co/google/seahorse-large-q2)|[seahorse-large-q3](https://huggingface.co/google/seahorse-large-q3)|[seahorse-large-q4](https://huggingface.co/google/seahorse-large-q4)|[seahorse-large-q5](https://huggingface.co/google/seahorse-large-q5)|[seahorse-large-q6](https://huggingface.co/google/seahorse-large-q6)|
 
+**Note:** Both the article and summaries should be input as unicode to the metrics, which is not how they are currently represented in the dataset. Please make sure they are encoded correctly before running the metrics. (See [issue #2](https://github.com/google-research-datasets/seahorse/issues/2) for an example.)
+
 ## Leaderboard
 
 We are maintaining a leaderboard with official results on our test set.
