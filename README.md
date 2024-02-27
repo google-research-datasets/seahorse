@@ -66,6 +66,8 @@ Please see the [paper](https://arxiv.org/abs/2305.13194) for more details about 
 | mT5-XXL      | [seahorse-xxl-q1](https://huggingface.co/google/seahorse-xxl-q1)|[seahorse-xxl-q2](https://huggingface.co/google/seahorse-xxl-q2)|[seahorse-xxl-q3](https://huggingface.co/google/seahorse-xxl-q3)|[seahorse-xxl-q4](https://huggingface.co/google/seahorse-xxl-q4)|[seahorse-xxl-q5](https://huggingface.co/google/seahorse-xxl-q5)|[seahorse-xxl-q6](https://huggingface.co/google/seahorse-xxl-q6)|
 | mT5-Large   | [seahorse-large-q1](https://huggingface.co/google/seahorse-large-q1)|[seahorse-large-q2](https://huggingface.co/google/seahorse-large-q2)|[seahorse-large-q3](https://huggingface.co/google/seahorse-large-q3)|[seahorse-large-q4](https://huggingface.co/google/seahorse-large-q4)|[seahorse-large-q5](https://huggingface.co/google/seahorse-large-q5)|[seahorse-large-q6](https://huggingface.co/google/seahorse-large-q6)|
 
+**Note:** If you want to use the metrics for labeling summaries (as opposed to looking at correlations or ROC-AUC as we did in the paper), you will need to select a threshold value to classify the metric's scores. The best threshold value will depend on your data and use case.
+
 ## Leaderboard
 
 We are maintaining a leaderboard with official results on our test set.
